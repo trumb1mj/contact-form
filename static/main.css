@@ -1,0 +1,27 @@
+.login-frame {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(241, 241, 241);
+  background-image: url(/static/background.png); background-position: initial initial; background-repeat: initial initial;
+  z-index: 9999999;
+}
+
+
+
+.logo img{
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+
+.form {
+  position: relative;
+  max-width: 330px;
+  margin: auto auto;
+  background-color: rgb(241, 241, 241);
+  padding: 40px;
+  top: 50%;
+  transform: translateY(50%);
+}
